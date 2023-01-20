@@ -5,6 +5,7 @@ import {Greeting, UserCard} from './Greeting'
 import {Button} from "./Button";
 import {TaskCard} from './Task'
 import {Saludar} from "./Saludar";
+import {Posts} from './Posts'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const handleChange = (e) => {
@@ -50,6 +51,8 @@ root.render(
 			<h1>Registro de usuario</h1>
 			<button>Send</button>
 		</form>
+		<h1>📝Fetch API</h1>
+		<Posts/>
 
 	</>
 )
