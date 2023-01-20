@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import {Greeting, UserCard} from './Greeting'
 import {Button} from "./Button";
+import {Saludar} from "./Saludar";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -34,5 +35,6 @@ root.render(
         <Button text='Click me'/>
         <Button text='Pay' name='Jahfo'/>
         <Button text='Hello world' name='Gerbo'/>
+        <Saludar/>
     </>
 )
