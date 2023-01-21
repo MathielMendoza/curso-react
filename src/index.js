@@ -6,6 +6,8 @@ import {Button} from "./Button";
 import {TaskCard} from './Task'
 import {Saludar} from "./Saludar";
 import {Posts} from './Posts'
+import {Counter} from './Counter'
+import {Message} from "./Message";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const handleChange = (e) => {
@@ -53,6 +55,10 @@ root.render(
 		</form>
 		<h1>📝Fetch API</h1>
 		<Posts/>
+		<h1>📝Hooks </h1>
+		<Counter/>
+		<br/>
+		<Message/>
 
 	</>
 )
