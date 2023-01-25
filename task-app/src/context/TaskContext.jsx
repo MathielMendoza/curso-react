@@ -11,7 +11,7 @@ const TaskContextProvider = (props) => {
 			id: tasks.length,
 			title,
 			description,
-			day: Date.now(),
+			day: new Date().toLocaleDateString("es-MX", {month: 'short', day: 'numeric', hour:'numeric', minute:'numeric', hour12: true}),
 		}])
 	};
 
